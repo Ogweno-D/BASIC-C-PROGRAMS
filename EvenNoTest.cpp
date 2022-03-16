@@ -8,13 +8,13 @@ int main(){
 	scanf("%d",&n);
 	
 	
-	//Checks if the value is even or not.1
+	//Checks if the value is even or not.
 	if(n%2==0){
-		printf("The number is even");
-		
+		printf("The number is even");	
 	}
-	
 	else
 		printf("The number is odd");
-			
+	
+	
+return 0;
 }
