@@ -1,19 +1,20 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 
 int main(){
 	
 	int n;
 	//Prompt the user to enter the value to be tested.
-	printf("Enter a number: ");
-	scanf("%d",&n);
+	cout << "Enter a number: ";
+	cin >> n;
 	
 	
 	//Checks if the value is even or not.
 	if(n%2==0){
-		printf("The number is even");	
+		cout<<"The number is even";	
 	}
 	else
-		printf("The number is odd");
+		cout << "The number is odd";
 	
 	
 return 0;
